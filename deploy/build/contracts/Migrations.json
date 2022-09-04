@@ -1074,12 +1074,12 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0x6b15Df5096c06d028bfD6975E53A53c7725E7C0f",
-      "transactionHash": "0x61534d9bca22369ec653f0f4f4e7993decfde232976ee75c53cc26758e090b2c"
+      "address": "0x79ccb344e957051DD262adcd3F5B7E9487f8Fe31",
+      "transactionHash": "0x7d2f8f0cd73c0d9ec910c501959a51ae7b6081f6984fae9294ddd86728ae857c"
     }
   },
   "schemaVersion": "3.4.9",
-  "updatedAt": "2022-09-04T01:46:41.093Z",
+  "updatedAt": "2022-09-04T01:54:12.485Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

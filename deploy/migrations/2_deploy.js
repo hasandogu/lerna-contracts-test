@@ -1,7 +1,7 @@
 const { deployProxy } = require('@openzeppelin/truffle-upgrades');
 
-const ERC721Core = artifacts.require('ERC721Core');
+const MyERC721 = artifacts.require('MyERC721');
 
 module.exports = async function (deployer) {
-	const instance = await deployProxy(ERC721Core, ["Core", "COR", "ipfs://"], { deployer });
+	const instance = await deployProxy(MyERC721, ["MyERC721", "MYERC721", "ipfs://"], { deployer });
 };
