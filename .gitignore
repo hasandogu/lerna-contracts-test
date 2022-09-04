@@ -1,0 +1,17 @@
+logs
+*.log
+npm-debug.log*
+.DS_Store
+.idea
+*.iml
+contracts/.placeholder
+test/.placeholder
+
+coverage
+node_modules
+# we need to include this once we deploy as it will be where our cached contract addresses will be
+# build/ 
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

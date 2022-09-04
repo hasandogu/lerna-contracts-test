@@ -1,0 +1,30 @@
+{
+	"name": "lerna-contracts-test",
+	"version": "0.0.0",
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"deploy",
+			"tokens"
+		],
+		"nohoist": [
+			"@openzeppelin/contracts",
+			"@openzeppelin/contracts-upgradeable"
+		]
+	},
+	"scripts": {
+		"bootstrap": "cross-env NODE_ENV=development lerna bootstrap --no-ci && lerna link",
+		"bootstrap:ci": "cross-env NODE_ENV=development lerna bootstrap --ci && lerna link",
+		"lerna-publish": "lerna publish"
+	},
+	"devDependencies": {
+		"lerna": "4.0.0",
+		"truffle-assertions": "^0.9.2",
+		"truffle-contract-size": "^2.0.1",
+		"truffle-plugin-verify": "^0.5.20",
+		"cross-env": "^7.0.3",
+		"dotenv": "^10.0.0",
+		"dotenv-expand": "^5.1.0",
+		"fs-extra": "^0.30.0"
+	}
+}
